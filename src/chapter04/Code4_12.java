@@ -15,7 +15,7 @@ public class Code4_12 {
         System.out.println(str2);
         String str3 = str2.trim();
         System.out.println(str3);
-      //앞뒤공백만 제거
+      //앞뒤공백만 제거1
 
     }
 }
