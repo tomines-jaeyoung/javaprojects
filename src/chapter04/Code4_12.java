@@ -16,6 +16,11 @@ public class Code4_12 {
         String str3 = str2.trim();
         System.out.println(str3);
       //앞뒤공백만 제거1
+        String str4 = str2.replaceAll(" ", "");//empty string: ""
+           System.out.println(str4);
 
-    }
-}
+           String str5 = str2.replace(" ", "");
+           System.out.println(str5);
+           String str6 = str2.replaceFirst(" ", "");
+           System.out.println(str6);//첫번째 공백만 제거?
+}}
